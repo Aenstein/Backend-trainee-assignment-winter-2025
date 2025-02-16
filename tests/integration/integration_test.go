@@ -21,7 +21,7 @@ import (
 	"github.com/testcontainers/testcontainers-go/wait"
 )
 
-// Создание таблицы в контейнере для интеграционных тестов
+// Создание бд в контейнере для интеграционных тестов
 func TestMain(m *testing.M) {
 	ctx := context.Background()
 	req := testcontainers.ContainerRequest{
